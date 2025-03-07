@@ -1,0 +1,121 @@
+    1  pacman -Syu
+    2  pacman -S util-linux procps-ng htop git
+    3  pacman -Sy
+    4  [200~pacman -S htop
+    5  pacman -S htop
+    6  pacman -Syuu
+    7  pacman -S htop
+    8  cal
+    9  top
+   10  htop
+   11  hf
+   12  pacman -Ss top
+   13  pacman -S mingw-w64-x86_64-htop
+   14  pacman -S bpytop
+   15  pacman -S procps-ng
+   16  top
+   17  htop
+   18  git status
+   19  pacman -S git
+   20  git status
+   21  cal
+   22  top
+   23  git --version
+   24  pacman -Ss htop
+   25  htop
+   26  pacman -Qe
+   27  pacman -Ss gotop
+   28  pacman -Ss bashtop
+   29  pacman -Qe
+   30  pacman -S curl
+   31  pacman -S wget
+   32  pacman -S vim nano
+   33  pacman -S zip unzip
+   34  pacman -S mingw-w64-x86_64-nodejs
+   35  node -v
+   36  npm -v
+   37  pacman -S mingw-w64-x86_64-mariadb
+   38  pacman -S mingw-w64-x86_64-postgresql
+   39  psql --version
+   40  pacman -S docker
+   41  pacman -S htop
+   42  pacman -S bashtop
+   43  pacman -S tree
+   44  pacman -S tmux
+   45  pacman -Qe
+   46  pacman -S mingw-w64-x86_64-mongo-tools
+   47  pacman -S mingw-w64-x86_64-yarn
+   48  уyarn -v
+   49  yarn -v
+   50  ps aux
+   51  top
+   52  [200~ps aux | grep 'Z'
+   53  ps aux | grep 'Z'
+   54  git status
+   55  top
+   56  mkdir C:/Users/lined/Desktop/lern1/HAUSAUFGABE/Linux12
+   57  cd C:/Users/lined/Desktop/lern1/HAUSAUFGABE/Linux12
+   58  tree  /c/Users/lined/Desktop/lern1/HAUSAUFGABE
+   59  git clone git@github.com:MaxN64/hausaufgabe12.git
+   60  cd ~
+   61  pwd
+   62  ls -la
+   63  pwd
+   64  cygpath -w $(pwd)
+   65  cd /msys64/home/lined/ .ssh
+   66  cd /msys64/home/lined/.ssh
+   67  ls -la /msys64/home/lined
+   68  cd .ssh
+   69  pwd
+   70  ls -la
+   71  cp /c/Users/lined/.ssh/id_ed25519* ~/.ssh/
+   72  ls -la ~/.ssh
+   73  git clone git@github.com:MaxN64/hausaufgabe12.git
+   74  top
+   75  htop
+   76  top
+   77  cd c/Users/lined/Desktop/lern1/HAUSAUFGABE/Linux12
+   78  cd:/c/Users/lined/Desktop/lern1/HAUSAUFGABE/Linux12
+   79  cd /c/Users/lined/Desktop/lern1/HAUSAUFGABE/Linux12
+   80  git checkout -b feature
+   81  ls -la
+   82  git clone git@github.com:MaxN64/hausaufgabe12.git Linux12
+   83  ls -la
+   84  tree
+   85  cd /c/Users/lined/Desktop/lern1/HAUSAUFGABE/Linux12/Linux12
+   86  ls -la
+   87  cd .
+   88  cd .
+   89  cd
+   90  cd /c/Users/lined/Desktop/lern1/HAUSAUFGABE
+   91  rm -rf Linux12
+   92  ls -la
+   93  git clone git@github.com:MaxN64/hausaufgabe12.git Linux12
+   94  ls -la
+   95  cd /c/Users/lined/Desktop/lern1/HAUSAUFGABE/linux12
+   96  ls -la
+   97  git checkout -b feature
+   98  echo "# Мой новый проект" >> README.md
+   99  echo "node_modules" >> .gitignore
+  100  ls -la
+  101  cat README.md
+  102  cat .gitignore
+  103  git add README.md .gitignore
+  104  git status
+  105  git commit -m "Add README and update .gitignore"
+  106  git config --global user.name "Maksym Norman"
+  107  git config --global user.email "linedomostroy@gmail.com"
+  108  git config
+  109  git config --list
+  110  git commit -m "Add README and update .gitignore"
+  111  git status
+  112  git push -u origin feature
+  113  git commit --ament -m "Add README and update .gitignore ammend"
+  114  git commit -- amend -m "Add README and update .gitignore ammend"
+  115  git commit --amend -m "Add README and update .gitignore с пометкой ammend"
+  116  git push --force origin feature
+  117  git checkout main
+  118  git status
+  119  git merge feature
+  120  git push origin main
+  121  history > history.txt
